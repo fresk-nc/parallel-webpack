@@ -23,9 +23,6 @@
   "bugs": {
     "url": "https://github.com/trivago/parallel-webpack/issues"
   },
-  "peerDependencies": {
-    "webpack": "^1.12.9 || ^2.2.0 || ^3.x || ^4.x"
-  },
   "dependencies": {
     "ajv": "^4.9.2",
     "bluebird": "^3.0.6",
@@ -44,6 +41,7 @@
     "babel-jest": "^20.0.3",
     "babel-preset-env": "^1.5.2",
     "coveralls": "^2.13.1",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "webpack": "^3.4.1"  
   }
 }
